@@ -1360,3 +1360,73 @@ ul .link-item:not(:last-child) {
   
     .wrapper { margin-bottom: 20px; }
   }
+  /*-----------------------------------*\
+  #PUBLICITY
+\*-----------------------------------*/
+
+.aside{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 90vw;
+  align-items: center;
+  margin: 0 auto 2rem;
+  background-color: yellow;
+  border-radius: 0.5rem;
+  padding: 2rem;
+  position: relative;
+  margin-top: 2rem;
+}
+
+.textPublicity{
+  position: absolute;
+  top: 0.5rem;
+  left: 1rem;
+  font-weight: 700;
+}
+
+.product{
+  border: 1px solid gray;
+  width: 18%;
+  height: 20rem;
+  background-color: white;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
+
+.product .thumbnail {
+  width: 60%;
+ height: auto;
+  overflow: hidden;
+}
+.product h2, .product p, .product a{
+  font-size: 12px;
+}
+
+.product p{
+  font-weight: 700;
+}
+
+.product a{
+  font-weight: 700;
+  padding:  10px;
+  font-size:  16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 300ms ease;
+  text-decoration: none;
+  color: var(--white);
+  background: var(--exDark);
+  border: 1px solid var(--exDark);
+}
+.product a:hover {
+  color: white;
+  background: red;
+  border: 1px solid var(--);
+}

@@ -25,35 +25,95 @@
 
 <body class="container">
 
-  <!-- ===== START HEADER ===== -->
-  <header class="header">
-    <div href="./index.html" class="logo">
-      <i class='bx bxs-camera-movie bx-tada logo-color'></i>Cine<span class="">Flix</span>
-    </div>
+   <!--
+      - main container
+    -->
+    
 
-    <nav class="navBar">
-      <div class="open-btn" id="open">
-        <i class="bx bx-menu"></i>
-      </div>
-      <div class="nav-items">
-        <ul class="list">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="#movies">Movies</a></li>
-          <li><a href="#live">TV Series</a></li>
-          <li><a href="#category">Category</a></li>
-          <li><a href="consulta.html">Contact</a></li>
+        <!--
+        - #HEADER SECTION
+      -->
 
-          <div class="close-btn" id="close">
-            <i class="bx bx-x"></i>
-          </div>
-        </ul>
-        <li>
-          <a href="#" class="btn">
-            Sign in
-          </a>
-        </li>
-      </div>
-    </nav>
+      <header class="header" data-header>
+        <div class="container">
+
+            <div class="overlay" data-overlay></div>
+
+            <!-- Logo -->
+            <a class="navbar-brand m-auto" href="index.html">
+                <i class='bx bxs-camera-movie bx-tada logo-color'></i> Cine<span>Flix</span>
+            </a>
+
+            <div class="header-actions">
+
+                <button class="search-btn">
+                    <i class='bx bx-search'></i>
+                </button>
+
+                <button class="width-btn">
+                    <i class='bx bxs-heart'></i>
+                </button>
+
+                <button class="btn btn-primary">Sign in</button>
+
+            </div>
+
+            <button class="menu-open-btn" data-menu-open-btn>
+                <i class='bx bx-menu'></i>
+            </button>
+
+            <nav class="navbar navbar-expand-lg navbar-light" data-navbar>
+
+                <div class="navbar-top">
+
+                    <!-- Logo -->
+                    <a class="navbar-brand m-auto" href="index.html">
+                        <i class='bx bxs-camera-movie bx-tada logo-color'></i> Cine<span>Flix</span>
+                    </a>
+
+                    <button class="menu-close-btn" data-menu-close-btn>
+                        <i class='bx bx-x'></i>
+                    </button>
+
+                </div>
+
+                <ul class="navbar-nav collapse navbar-collapse navbar-list" id="navbarNav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#movies">Movies</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#live">TV Series</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#category">Category</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+
+                <ul class="navbar-social-list">
+
+                    <li>
+                        <a href="#" class="navbar-social-link">
+                            <i class='bx bxl-twitter'></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="navbar-social-link">
+                            <i class='bx bxl-facebook'></i>
+                        </a>
+                    </li>
+
+
+
+                    <li>
+                        <a href="#" class="navbar-social-link">
+                            <i class='bx bxl-instagram'></i>
+                        </a>
+                    </li>
+
+
+
+                </ul>
+
+            </nav>
+
+        </div>
   </header>
 
   <main>
