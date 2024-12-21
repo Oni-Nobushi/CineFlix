@@ -28,3 +28,12 @@ formulario.addEventListener('submit', function(evento) {
   evento.preventDefault(); // Evita que se envíe el formulario hasta hacer la verificación
   verificarCamposFormulario();
 });
+
+// Seleccionar el botón y la navbar
+const navbarToggler = document.querySelector('.navbar-toggler');
+const navbarCollapse = document.querySelector('.navbar-collapse');
+
+// Agregar funcionalidad para mostrar/ocultar el menú
+navbarToggler.addEventListener('click', () => {
+  navbarCollapse.classList.toggle('active');
+});
